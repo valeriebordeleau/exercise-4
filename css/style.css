@@ -44,15 +44,11 @@ body {
   right: 0;
   opacity: 0;
   background-color: #000;
-  -webkit-transition: opacity 0.35s;
-  -o-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
 
 .gallery .info,
 .gallery .foot {
-  -webkit-transition: bottom 0.35s;
-  -o-transition: bottom 0.35s;
   transition: bottom 0.35s;
 }
 
@@ -110,7 +106,7 @@ body {
   left: 0;
   padding: 10px 10px;
   position: absolute;
-  color: #fff;
+  color: white;
   font-size: 24px;
   z-index: 1;
   transition: font-size 0.35s;
