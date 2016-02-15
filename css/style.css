@@ -54,8 +54,6 @@ body {
 }
 
 .gallery.box {
-  width: 320px;
-  height: 405px;
   margin: 0 auto;
   overflow: hidden;
   border-radius: 1%;
