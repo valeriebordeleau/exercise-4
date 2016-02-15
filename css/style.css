@@ -4,6 +4,11 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
 */
 /* dont include the underscore in any name */
 /* includes all variables */
+body {
+  padding: 0;
+  margin: 0;
+}
+
 .title {
   margin: 50px auto 0 auto;
   text-align: center;
@@ -16,6 +21,7 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
   height:400px;*/
   margin: 0 auto;
   overflow: hidden;
+  padding: 0em;
 }
 
 .gallery .card {

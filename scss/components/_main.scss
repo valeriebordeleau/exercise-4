@@ -1,5 +1,6 @@
 body{
- 
+    padding: 0;
+    margin: 0; 
 }
 
 .title{
@@ -14,6 +15,7 @@ body{
   height:400px;*/
   margin: 0 auto;
   overflow: hidden;
+  padding: 0em;
 }
 
 .gallery .card{
@@ -48,6 +50,7 @@ body{
 .gallery .info{
 	position: absolute;
 	bottom: -100px;	
+
 }
 
 .gallery .info h2 a{
