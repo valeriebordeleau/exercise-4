@@ -113,7 +113,7 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
 }
 
 .gallery:hover .overlay {
-  opacity: 0.6;
+  opacity: 0.7;
 }
 
 .gallery:hover .foot .line {
