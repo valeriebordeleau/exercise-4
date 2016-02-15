@@ -52,15 +52,11 @@ body{
 	right: 0;
 	opacity: 0;
   background-color: #000;
-	-webkit-transition: opacity 0.35s;
-	-o-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
 .gallery .info,
 .gallery .foot{
-	-webkit-transition: bottom 0.35s;
-	-o-transition: bottom 0.35s;
 	transition: bottom 0.35s;
 }
 
