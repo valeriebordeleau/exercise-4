@@ -18,14 +18,14 @@ html {
 }
 
 body{
-  background: #36648b;
+  background: white;
   background-position: 90% 60%;
 }
 
 .title{
   margin: 50px auto 0 auto;
   text-align:center;
-  color: #fff;
+  color: $black;
   font-size: 32px;
 }
 
@@ -33,7 +33,7 @@ body{
   margin: 0 auto;
   overflow: hidden;
   border-radius: 1%;
-  border: 10px #fff solid;
+  border: 10px $light-blue solid;
 }
 
 .gallery .card{
