@@ -14,7 +14,6 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
 .gallery.box {
   /*width: 400px;
   height:400px;*/
-  height: 100%;
   margin: 0 auto;
   overflow: hidden;
 }
@@ -24,7 +23,7 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
 }
 
 .gallery .background, .gallery .column {
-  height: 405px;
+  height: 20em;
 }
 
 .gallery .column {
@@ -39,7 +38,7 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
   left: 0;
   right: 0;
   opacity: 0;
-  background-color: #000;
+  background-color: #232222;
   transition: opacity 0.35s;
 }
 
@@ -51,7 +50,6 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
 .gallery .info {
   position: absolute;
   bottom: -35px;
-  width: 100%;
 }
 
 .gallery .info h2 a {
@@ -63,9 +61,9 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
 
 .gallery .info h2 {
   line-height: 24px;
-  font-size: 18px;
+  font-size: 24px;
   padding: 0 10px;
-  font-weight: 400;
+  text-transform: uppercase;
 }
 
 .gallery .foot {
@@ -94,7 +92,7 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
 }
 
 .gallery .date {
-  font-weight: 300;
+  font-weight: 200;
 }
 
 .gallery .fa-camera-retro {
@@ -115,7 +113,7 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
 }
 
 .gallery:hover .overlay {
-  opacity: 0.5;
+  opacity: 0.6;
 }
 
 .gallery:hover .foot .line {
@@ -134,7 +132,7 @@ html {
 
 h1, h2, h3 {
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 @media only screen and (min-width: 60em) {
