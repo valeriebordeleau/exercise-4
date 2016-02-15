@@ -4,45 +4,7 @@ All the files that are prefixed with an underscore like "_name-of-file.scss" are
 */
 /* dont include the underscore in any name */
 /* includes all variables */
-@-moz-viewport {
-  width: device-width;
-  scale: 1;
-}
-
-@-ms-viewport {
-  width: device-width;
-  scale: 1;
-}
-
-@-o-viewport {
-  width: device-width;
-  scale: 1;
-}
-
-@-webkit-viewport {
-  width: device-width;
-  scale: 1;
-}
-
-@viewport {
-  width: device-width;
-  scale: 1;
-}
-
-html {
-  box-sizing: border-box;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-  text-size-adjust: 100%;
-}
-
-*, *:before, *:after {
-  box-sizing: inherit;
-}
-
 body {
-  background: white;
   background-position: 90% 60%;
 }
 
@@ -54,10 +16,11 @@ body {
 }
 
 .gallery.box {
+  width: 400px;
+  height: 400px;
   margin: 0 auto;
   overflow: hidden;
-  border-radius: 1%;
-  border: 10px #ACC6C9 solid;
+  border: 1px #232222 solid;
 }
 
 .gallery .card {
@@ -68,6 +31,11 @@ body {
   height: 405px;
 }
 
+.gallery .column {
+  width: 20%;
+  float: left;
+}
+
 .gallery .overlay {
   position: absolute;
   top: 0;
@@ -76,11 +44,15 @@ body {
   right: 0;
   opacity: 0;
   background-color: #000;
+  -webkit-transition: opacity 0.35s;
+  -o-transition: opacity 0.35s;
   transition: opacity 0.35s;
 }
 
 .gallery .info,
 .gallery .foot {
+  -webkit-transition: bottom 0.35s;
+  -o-transition: bottom 0.35s;
   transition: bottom 0.35s;
 }
 
@@ -165,7 +137,7 @@ body {
 /* http://thomasjbradley.github.io/typografier/#0,100,1.3,1.067;38,110,1.4,1.067;60,120,1.5,1.067;90,130,1.5,1.067 */
 html {
   font-family: 'Fira Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 200;
 }
 
 h1, h2, h3 {

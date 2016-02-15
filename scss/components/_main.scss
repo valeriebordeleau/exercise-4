@@ -1,24 +1,4 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
-
-html {
-	box-sizing: border-box;
-	-moz-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-	-webkit-text-size-adjust: 100%;
-	text-size-adjust: 100%;
-}
-
-
-*, *:before, *:after {
-	box-sizing: inherit;
-}
-
 body{
-  background: white;
   background-position: 90% 60%;
 }
 
@@ -30,10 +10,11 @@ body{
 }
 
 .gallery.box{
+  width: 400px;
+  height:400px;
   margin: 0 auto;
   overflow: hidden;
-  border-radius: 1%;
-  border: 10px $light-blue solid;
+  border: 1px $black solid;
 }
 
 .gallery .card{
@@ -44,6 +25,11 @@ body{
   height: 405px;
 }
 
+.gallery .column{
+  width: 20%;
+  float: left;
+}
+
 .gallery .overlay{
 	position: absolute;
 	top:0;
@@ -52,11 +38,15 @@ body{
 	right: 0;
 	opacity: 0;
   background-color: #000;
+	-webkit-transition: opacity 0.35s;
+	-o-transition: opacity 0.35s;
 	transition: opacity 0.35s;
 }
 
 .gallery .info,
 .gallery .foot{
+	-webkit-transition: bottom 0.35s;
+	-o-transition: bottom 0.35s;
 	transition: bottom 0.35s;
 }
 
